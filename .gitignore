@@ -1,0 +1,19 @@
+# Build products and local scratch data
+.DS_Store
+*.app/
+dist/
+.build/
+work/
+*.log
+# Credentials, private configuration and local data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+auth.json
+config.toml
+*.sqlite*
+.codex/
